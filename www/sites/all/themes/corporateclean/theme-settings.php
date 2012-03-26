@@ -32,6 +32,15 @@ function corporateclean_form_system_theme_settings_alter(&$form, &$form_state) {
 	'#collapsed' => FALSE,
   );
   
+  $form['mtt_settings']['show_comment_title'] = array(
+    '#type' => 'checkbox',
+    '#title' => t('Show comment title'),
+  	'#description'   => t('Use the checkbox to show or hide comment title.'),
+    '#default_value' => theme_get_setting('show_comment_title','corporateclean'),
+    '#collapsible' => TRUE,
+    '#collapsed' => FALSE,
+  );  
+  
   $form['mtt_settings']['slideshow'] = array(
     '#type' => 'fieldset',
     '#title' => t('Front Page Slideshow'),

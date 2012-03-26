@@ -9,9 +9,11 @@
   <?php endif; ?>
   
 	<span class="submitted"><?php print $submitted ?></span>
-    <?php print render($title_prefix); ?>
-    <h3<?php print $title_attributes; ?>><?php print $title ?></h3>
-    <?php print render($title_suffix); ?>
+    <?php if (theme_get_setting('show_comment_title','corporateclean')): ?>
+      <?php print render($title_prefix); ?>
+      <h3<?php print $title_attributes; ?>><?php print $title ?></h3>
+      <?php print render($title_suffix); ?>
+    <?php endif; ?>
 
     <div class="content"<?php print $content_attributes; ?>>
       <?php hide($content['links']); print render($content); ?>
