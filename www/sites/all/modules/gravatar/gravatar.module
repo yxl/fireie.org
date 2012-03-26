@@ -177,11 +177,11 @@ function _gravatar_get_account_user_picture($account) {
     // disabled for their account, use the global default image.
     return variable_get('user_picture_default', '');
   }
-  else {
+  else if (!empty($account->mail)){
     // Otherwise, show a gravatar with the appropraite default picture.
+    $mail = $account->mail;
     $options = array();
-    if (!empty($account->mail)) {
-      $mail = $account->mail;
+    if (empty($mail)) {
       $options['force default'] = TRUE;
       // Use various fallbacks to provide a unique default gravatar.
       if (!empty($account->hostname)) {
