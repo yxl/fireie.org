@@ -180,7 +180,7 @@ function _gravatar_get_account_user_picture($account) {
   else {
     // Otherwise, show a gravatar with the appropraite default picture.
     $options = array();
-    if (empty($account->mail)) {
+    if (!empty($account->mail)) {
       $mail = $account->mail;
       $options['force default'] = TRUE;
       // Use various fallbacks to provide a unique default gravatar.
