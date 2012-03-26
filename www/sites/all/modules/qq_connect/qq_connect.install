@@ -1,0 +1,94 @@
+<?php
+
+/**
+ * @file
+ * Install, update, and uninstall functions for the qq_connect module.
+ */
+
+/**
+ * Implementation of hook_schema().
+ * 
+ * QQ openid = qq_connect.openid
+ * qq_connect.authname = authmap.authname
+ * authmap.uid = users.uid
+ * 
+ * users.uid -- deletable, unique
+ * users.name -- changeable, unique
+ * QQ nickname -- changeable
+ * 
+ * qq_connect.authname -- fixed, unique
+ * authmap.authname -- fixed, unique
+ * 
+ * Drupal API: user_external_login_register() 
+ * -- would retrieve uid based on authmap.authname, then load user by uid
+ * 
+ * QQ register process:
+ * 
+ * QQ login process:
+ * -- get openid, nickname, --> get authmap.authname based on openid --> user_external_login_register()
+ * 
+ * QQ user delete process:
+ * -- user.uid deleted -(done by drupal)-> authmap.uid deleted -(done by drupal)-> authmap.authname deleted 
+ *    -(done by qq_connect_user_delete)-> unbind openid: qq_connect.authname, qq_connect.openid deleted
+ * -- notice: the foreign key of authname seems doenn't work
+ * 
+ * QQ user disable process:
+ * 
+ * Add timestamp
+ * 
+ */
+function qq_connect_schema() {
+  $schema['qq_connect'] = array(
+    // specification for mytable
+    'description' => 'Store QQ openid - authname information.',
+    'fields' => array(
+      'eid' => array(
+        'description' => 'The primary identifier.', 
+        'type' => 'serial', 
+        'unsigned' => TRUE, 
+        'not null' => TRUE,
+      ),
+      'openid' => array(
+        'description' => 'QQ openid.',
+        'type' => 'varchar',
+        'length' => 32,
+        'not null' => TRUE,
+        'default' => '',
+      ),
+      'authname' => array(
+        'description' => 'Authname in the authmap table, name in the users table',
+        'type' => 'varchar',
+        'length' => 128,
+        'not null' => TRUE,
+        'default' => '',
+      ),
+    ),
+    'indexes' => array(
+      'openid' => array('openid'),
+      'authname' => array('authname'),
+    ),
+    'unique keys' => array(
+      'qq_openid' => array('openid'),
+      'qq_authname' => array('authname'),
+    ),
+    'foreign keys' => array(
+      'foreign_authname' => array(
+        'table' => 'authmap',
+        'columns' => array('authname' => 'authname'),
+      ),
+    ),
+    'primary key' => array('eid'),
+  );
+
+  return $schema;
+}
+
+
+/**
+ * Implementation of hook_update_N().
+ * 
+function mymodule_update_6100() {
+  $ret = array();
+  db_add_field($ret, 'mytable1', 'newcol', array('type' => 'int'));
+  return $ret;
+}*/

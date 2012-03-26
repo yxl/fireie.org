@@ -1,0 +1,192 @@
+<?php
+/**
+ * QQ connect module.
+ *
+ * SDK version: beta_V1.3
+ */
+
+/**
+ * 正式运营环境请关闭错误信息
+ * ini_set("error_reporting", E_ALL);
+ * ini_set("display_errors", TRUE);
+ * QQDEBUG = true  开启错误提示
+ * QQDEBUG = false 禁止错误提示
+ * 默认禁止错误信息 -- 在本模块中修改为开启
+ */
+//define("QQDEBUG", false);
+$qq_debug = variable_get('qq_connect_debug', 1);
+define("QQDEBUG", $qq_debug == 1);
+if (defined("QQDEBUG") && QQDEBUG) {
+  @ini_set("error_reporting", E_ALL);
+  @ini_set("display_errors", TRUE);
+}
+
+/**
+ * session
+ */
+//include_once("session.php");
+include_once(drupal_get_path('module', 'qq_connect') . "/comm/config.inc");
+include_once(drupal_get_path('module', 'qq_connect') . "/comm/utils.inc");
+include_once(drupal_get_path('module', 'qq_connect') . "/oauth/get_request_token.inc");
+require_once(drupal_get_path('module', 'qq_connect') . '/user/get_user_info.inc');
+module_load_include('inc', 'qq_connect', 'qq_connect');
+
+/**
+ * 在你运行本demo之前请到 http://connect.opensns.qq.com/申请appid, appkey, 并注册callback地址
+ */
+//申请到的appid
+//$_SESSION["appid"]    = yourappid; 
+$_SESSION["appid"] = variable_get('qq_connect_appid', '');
+
+//申请到的appkey
+//$_SESSION["appkey"]   = "yourappkey"; 
+$_SESSION["appkey"] = variable_get('qq_connect_appkey', '');
+
+//QQ登录成功后跳转的地址,请确保地址真实可用，否则会导致登录失败。
+$_SESSION["callback"] = variable_get('qq_connect_callback', 'http://fireie.org/zh-CN/user/login/qq/callback');
+
+/**
+ * Implements hook_menu().
+ */
+function qq_connect_menu() {
+  $items['user/login/qq'] = array(
+    'page callback' => 'redirect_to_login',
+    'page arguments' => array($_SESSION["appid"], $_SESSION["appkey"], $_SESSION["callback"]),
+    'file' => 'oauth/redirect_to_login.inc',
+    'type' => MENU_CALLBACK,
+    'access callback' => TRUE,
+  );
+  $items['user/login/qq/callback'] = array(
+    'page callback' => '_qq_connect_callback',
+    'type' => MENU_CALLBACK,
+    'file' => 'oauth/get_access_token.inc',
+    'access callback' => TRUE,
+  );
+  $items['admin/config/people/qq-connect'] = array(
+    'title' => 'QQ connect settings',
+    'description' => 'None.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('qq_connect_admin_settings'),
+    'access arguments' => array('administer site configuration'),
+    'file' => 'comm/config.inc',
+    'weight' => 1,
+    'type' => MENU_NORMAL_ITEM,
+  );
+  return $items;
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ * 
+ * Alter user_login.
+ */
+function qq_connect_form_user_login_alter(&$form, &$form_state, $form_id) {
+  $path = drupal_get_path('module', 'qq_connect');
+  
+  $markup = '<a href="/user/login/qq""><img src="/' . $path . '/misc/Connect_logo_170x32.png" /></a>';
+  
+  // Add QQ connect button.
+  $form['qq_connect'] = array(
+    '#markup' => $markup,
+    '#prefix' => '<div class="qq-connect">',
+    '#weight' => 1,
+    '#suffix' => '</div>',
+  );
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ * 
+ * Alter user_login_block
+ */
+function qq_connect_form_user_login_block_alter(&$form, &$form_state, $form_id) {
+  $path = drupal_get_path('module', 'qq_connect');
+   
+  $markup = '<a href="/user/login/qq"><img src="/' . $path . '/misc/Connect_logo_120x24.png" /></a>';
+  
+  // Add QQ connect button.
+  $form['qq_connect'] = array(
+    '#markup' => $markup,
+    '#prefix' => '<div class="qq-connect">',
+    '#weight' => 1,
+    '#suffix' => '</div>',
+  );
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ * 
+ * Alter user_profile_form
+ * 
+ * @see user_account_form
+ */
+function qq_connect_form_user_profile_form_alter(&$form, &$form_state, $form_id) {
+  global $user;
+  
+  $external_register = array();
+  if ($user->uid > 0) {
+    $external_register = user_get_authmaps($user->name);
+  }
+  
+  if (!$external_register) {return;}
+  $external_register_key = array_keys($external_register);
+  if ($external_register_key[0] == 'qq_connect') {
+    $form['account']['current_pass']['#access'] = false;
+    
+    $form['picture']['qq_avatar'] = array(
+      '#type' => 'button',
+      '#value' => t('从QQ空间下载'),
+      '#name' => 'qq_dowload',
+      '#ajax' => array(
+        'callback' => '_qq_connect_save_avatar',
+        'wrapper' => 'edit-picture',
+        'trigger_as' => array('name' => 'qq_dowload'),
+        'effect' => 'fade',
+      ),
+    );
+    
+    $form['#validate'] = array_filter($form['#validate'],"isHave");
+  }
+}
+
+
+//array filter
+function isHave($var){
+  if($var!="user_validate_current_pass")
+  return true;
+}
+
+/**
+ * Implementation of hook_user_delete($account).
+ * 
+ * clear openid bind.
+ */
+function qq_connect_user_delete($account) {
+  $result = db_query("SELECT authname FROM {authmap} WHERE uid = :uid", array(':uid' => $account->uid));
+  $record = $result->fetchObject();
+  
+  db_delete('qq_connect')
+    ->condition('authname', $record->authname)
+    ->execute();
+}
+
+/**
+ * Adds meta info to page header.
+ * Implements hoo_page_alter().
+ * @author Yuan Xulei
+ */
+function qq_connect_page_alter($page) {
+  // QQ login meta
+  $meta_qqlogin = array(
+    '#type' => 'html_tag',
+    '#tag' => 'meta',
+    '#attributes' => array(
+    'property' => 'qc:admins',
+    'content' => variable_get('qq_connect_meta', '25271227125156727'),
+  ));
+
+  drupal_add_html_head($meta_qqlogin , 'meta_qqlogin');
+}
+
+
+

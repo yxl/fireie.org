@@ -1,0 +1,12 @@
+name = QQ connect
+description = none.
+package = China open
+configure = admin/config/people/qq-connect
+;sdk version = Beta_V1.3 
+
+;files[] = qq_session.inc
+
+stylesheets[all][] = qq_connect.css
+;scripts[]= qq_connect.js
+
+core = 7.x
