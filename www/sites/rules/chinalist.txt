@@ -1,5 +1,5 @@
 [fireie 0.0.9]
-!  Checksum: OIHyxzUOQ5Y5+LLiCoqi4A
+!  Checksum: 9QfHAtNOVB4bC1R6ev9EPA
 ! Expires: 2 days
 ! ===============================================
 !            User Agent Rules  
@@ -11,49 +11,68 @@
 ! ===============================================
 ! 购物及支付 由魏大鹏提供
 ! -----------------------------------------------
-! taobao
+! 第三方连支付宝
+||tenpay.com/cgi-bin/*/pay_gate.cgi^
+|https://tradeexprod.alipay.com/gateway/exterfaceAssign.do*paymethod
+! 第三方连财付通
+||tenpay.com/gateway/pay.htm
+! 淘宝
 |https://cashier.alipay.com/standard/gateway/ebankPay.htm^
 |https://cashier.alipay.com/standard/gateway/ebankDeposit.htm^
-! 360buy
+! 京东
 ||360buy.com/purchase/succeed_online.aspx^
 |http://payment.360buy.com/bank/payment_orderselect.aspx^
-! paipai & tenpay
-||tenpay.com^
-! 99bill
-||99bill.com^
-!amazon
-||www.amazon.cn/gp/buy^
-||www.amazon.cn/gp/css/ep/repay-pending-transactions.html^
-!vancl
+! 亚马逊
+||amazon.cn/gp/buy^
+||amazon.cn/gp/css/ep^
+! 凡客
 |https://shopping.vancl.com/shoppingcar^
 |http://pay.vancl.com/Shopping_Paid.aspx^
 |http://om.vancl.com/Checkout/ShoppingPay^
-!newegg
+! 新蛋
 |https://secure.newegg.com.cn/Order/OrderDetail.aspx^
 |https://secure.newegg.com.cn/Order/ChangeSOThankYou.aspx^
 |https://secure.newegg.com.cn/shopping/CheckOut.aspx^
-!第三方连支付宝和财付通
-|https://tradeexprod.alipay.com/gateway/exterfaceAssign.do^
 !12306
 ||12306.cn^
-!chinastock
-||chinastock.com.cn^
-!dangdang
+! 当当
 ||dangdang.com^
+! 银河证券
+||chinastock.com.cn^
+! 10086 中国移动
+||10086.cn
+! 糯米
+||nuomi.com/buy^
+! 拉手
+||lashou.com/buy.php^
 ! -----------------------------------------------
 ! 银行
 ! -----------------------------------------------
+! 工商银行
 ||icbc.com.cn^
+! 招商银行
 ||cmbchina.com^
+! 中国农业银行
 ||abchina.com^
+! 中信银行
 ||ecitic.com^
+! 光大银行
 ||cebbank.com^
+! 中国银行
 ||boc.cn^
+! 交通银行
 ||bankcomm.com^
+||95559.com.cn^
+! 兴业银行
 ||cib.com.cn^
+! 深发展银行
 ||sdb.com.cn^
+! 华夏银行
 ||hxb.com.cn^
+! 中国邮政储蓄
 ||psbc.com^
+! 北京银行
+||bankofbeijing.com.cn^
 ! -----------------------------------------------
 ! 其他
 ! -----------------------------------------------
