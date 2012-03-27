@@ -1,5 +1,5 @@
 [fireie 0.0.9]
-!  Checksum: NJPU+Loj5H4H5WFr8yxu+w
+!  Checksum: OIHyxzUOQ5Y5+LLiCoqi4A
 ! Expires: 2 days
 ! ===============================================
 !            User Agent Rules  
@@ -59,3 +59,5 @@
 ! -----------------------------------------------
 ! 湖南气象网
 ||hnqx.gov.cn^
+! zvod - cisswa提供
+||zoamo.lgnas.com/zvod^
