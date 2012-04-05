@@ -1,11 +1,13 @@
 [fireie 0.0.9]
-!  Checksum: VLacxvvGXKQEoNU7HOSBDw
+!  Checksum: ZYvByBKBjaf3PU/Gn9HMyQ
 ! Expires: 2 days
 ! ===============================================
 !            User Agent Rules  
 ! ===============================================
 ##||firefox.net.cn^
 ##||360buy.com^
+! 高品质时尚圈 LongW提供
+##||kctime.com^
 ! ===============================================
 !               Engine Rules
 ! ===============================================
