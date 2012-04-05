@@ -1,5 +1,5 @@
 [fireie 0.0.9]
-!  Checksum: 9QfHAtNOVB4bC1R6ev9EPA
+!  Checksum: Hn+1ZZJn+38k2VNbDmj/NQ
 ! Expires: 2 days
 ! ===============================================
 !            User Agent Rules  
@@ -14,8 +14,8 @@
 ! 第三方连支付宝
 ||tenpay.com/cgi-bin/*/pay_gate.cgi^
 |https://tradeexprod.alipay.com/gateway/exterfaceAssign.do*paymethod
-! 第三方连财付通
-||tenpay.com/gateway/pay.htm
+! 财付通
+||tenpay.com^
 ! 淘宝
 |https://cashier.alipay.com/standard/gateway/ebankPay.htm^
 |https://cashier.alipay.com/standard/gateway/ebankDeposit.htm^
