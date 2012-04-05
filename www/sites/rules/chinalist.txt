@@ -1,5 +1,5 @@
 [fireie 0.0.9]
-!  Checksum: Hn+1ZZJn+38k2VNbDmj/NQ
+!  Checksum: VLacxvvGXKQEoNU7HOSBDw
 ! Expires: 2 days
 ! ===============================================
 !            User Agent Rules  
@@ -80,3 +80,5 @@
 ||hnqx.gov.cn^
 ! zvod - cisswa提供
 ||zoamo.lgnas.com/zvod^
+! 迅雷快传 六度提供 
+|http://kuai.xunlei.com^
