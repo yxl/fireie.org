@@ -66,12 +66,12 @@
                 <div style="float:left; padding:0 30px 0 0;">
                 <img height="250px" class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/mockup/slide-1.png"/>
                 </div>
-                <h2>Sample product name</h2>
-                <strong>General</strong><br/>
-                <em>Client name</em><br/>
+                <h2>解雇IE</h2>
+                <strong>Firefox双核浏览器扩展</strong><br/>
+                <em>fireie.org</em><br/>
                 <br/>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                <div style="display:block; padding:30px 0 10px 0;"><a class="more" href="#">Tell me more</a></div>
+                “解雇IE”是一款仿搜狗浏览器的Firefox双核扩展，在地址栏添加了一个IE内核切换按钮，能够自动切换IE内核！.
+                <div style="display:block; padding:30px 0 10px 0;"><a class="more" href="#">详细信息(未完成)</a></div>
                 <!--EOF:slider-item content-->
                 
             </div>
@@ -86,28 +86,11 @@
                 <div style="float:right; padding:0 0 0 30px;">
                 <img height="250px" class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/mockup/slide-2.png"/>
                 </div>
-                <h2>Sample service name</h2>
-                <strong>General</strong><br/>
-                <em>Client name</em><br/>
+                <h2>解雇IE，享用Firefox的强大</h2>
+                <strong>一键切换至IE内核</strong><br/>
+                <em>fireie.org</em><br/>
                 <br/>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                <div style="display:block; padding:30px 0 10px 0;"><a class="more" href="#">Tell me more</a></div>
-                <!--EOF:slider-item content-->
-            
-            </div>
-        </div>
-        <!--EOF:slider-item-->
-        
-        <!--slider-item-->
-        <div class="slider-item">
-            <div class="content">
-            
-                <!--slider-item content-->
-                <h2>Sample product name</h2>
-                <strong>General</strong><br/>
-                <em>Client name</em><br/>
-                <br/>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                兼容IE标准网站。内核切换时同步Cookie，避免重新登录困扰。
                 <div style="display:block; padding:30px 0 10px 0;"><a class="more" href="#">Tell me more</a></div>
                 <!--EOF:slider-item content-->
             
