@@ -50,10 +50,10 @@
 <div id="banner">
 
 	<?php print render($page['banner']); ?>
-	
-    <?php if (theme_get_setting('slideshow_display','corporateclean')): ?>
-    
+	   
     <?php if ($is_front): ?>
+    
+    <?php if (theme_get_setting('slideshow_display','corporateclean')): ?>
     
     <!--slideshow-->
     <div id="slideshow">
