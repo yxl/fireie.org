@@ -66,12 +66,12 @@
                 <div style="float:left; padding:0 30px 0 0;">
                 <img height="250px" class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/mockup/slide-1.png"/>
                 </div>
-                <h2>���IE</h2>
-                <strong>Firefox˫���������չ</strong><br/>
+                <h2>解雇IE</h2>
+                <strong>Firefox双核浏览器扩展</strong><br/>
                 <em>fireie.org</em><br/>
                 <br/>
-                �����IE����һ����ѹ��������Firefox˫����չ���ڵ�ַ��������һ��IE�ں��л���ť���ܹ��Զ��л�IE�ںˣ�.
-                <div style="display:block; padding:30px 0 10px 0;"><a class="more" href="#">��ϸ��Ϣ(δ���)</a></div>
+                “解雇IE”是一款仿搜狗浏览器的Firefox双核扩展，在地址栏添加了一个IE内核切换按钮，能够自动切换IE内核！.
+                <div style="display:block; padding:30px 0 10px 0;"><a class="more" href="#">详细信息(未完成)</a></div>
                 <!--EOF:slider-item content-->
                 
             </div>
@@ -86,11 +86,11 @@
                 <div style="float:right; padding:0 0 0 30px;">
                 <img height="250px" class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/mockup/slide-2.png"/>
                 </div>
-                <h2>���IE������Firefox��ǿ��</h2>
-                <strong>һ���л���IE�ں�</strong><br/>
+                <h2>解雇IE，享用Firefox的强大</h2>
+                <strong>一键切换至IE内核</strong><br/>
                 <em>fireie.org</em><br/>
                 <br/>
-                ����IE��׼��վ���ں��л�ʱͬ��Cookie���������µ�¼���š�
+                兼容IE标准网站。内核切换时同步Cookie，避免重新登录困扰。
                 <div style="display:block; padding:30px 0 10px 0;"><a class="more" href="#">Tell me more</a></div>
                 <!--EOF:slider-item content-->
             
