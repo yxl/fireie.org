@@ -64,7 +64,7 @@
                 
                 <!--slider-item content-->
                 <div style="float:left; padding:0 30px 0 0;">
-                <img height="250px" class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/mockup/slide-1.jpg"/>
+                <img height="250px" class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/mockup/slide-1.png"/>
                 </div>
                 <h2>Sample product name</h2>
                 <strong>General</strong><br/>
@@ -84,7 +84,7 @@
             
                 <!--slider-item content-->
                 <div style="float:right; padding:0 0 0 30px;">
-                <img height="250px" class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/mockup/slide-2.jpg"/>
+                <img height="250px" class="masked" src="<?php print base_path() . drupal_get_path('theme', 'corporateclean') ;?>/mockup/slide-2.png"/>
                 </div>
                 <h2>Sample service name</h2>
                 <strong>General</strong><br/>
