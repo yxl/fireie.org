@@ -15,6 +15,7 @@
    $size = filesize($filename);
    $result = fread($fp, $size);
    fclose($fp);
+   echo "git pull: ";
    echo "<pre>" . $result . "</pre>";   
 ?>
   </body>
