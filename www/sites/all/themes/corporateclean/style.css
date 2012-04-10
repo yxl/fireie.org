@@ -48,7 +48,7 @@ blockquote { background:transparent url('images/blockquote.png') no-repeat top l
 */
 #header { clear:both; }
 
-#header-inside { width: 960px; margin: 0 auto; padding:40px 0; overflow:hidden; } 
+#header-inside { background:#000 url('images/banner.png'); width: 960px; margin: 0 auto; padding:40px 0; overflow:hidden; } 
 
 #header-menu { clear:both; }
 
