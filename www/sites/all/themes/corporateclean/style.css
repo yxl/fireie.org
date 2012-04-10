@@ -46,7 +46,7 @@ blockquote { background:transparent url('images/blockquote.png') no-repeat top l
 /* 
 * Layout 
 */
-#header { background:#000; clear:both; }
+#header { clear:both; height: 210px;}
 
 #header-inside { background:transparent url('images/banner.png'); width: 960px; margin: 0 auto; padding:40px 0; overflow:hidden; } 
 
