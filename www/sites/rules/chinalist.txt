@@ -1,5 +1,5 @@
 [fireie 0.0.9]
-!  Checksum: UKyCyIvWSKthYEbx2h1qLg
+!  Checksum: 8s+w7Uy1c4G3o+Z8PrXfag
 ! Expires: 2 days
 ! ===============================================
 !            User Agent Rules  
@@ -60,8 +60,9 @@
 ||icbc.com.cn^
 ! 招商银行
 ||cmbchina.com^
-! 中国农业银行
+! 中国农业银行 dream a dream提供
 ||abchina.com^
+||95599.cn^ 
 ! 中信银行
 ||ecitic.com^
 ! 光大银行
@@ -81,6 +82,8 @@
 ||psbc.com^
 ! 北京银行
 ||bankofbeijing.com.cn^
+! 广发银行
+||cgbchina.com.cn^
 ! -----------------------------------------------
 ! 政府网站
 ! -----------------------------------------------
@@ -95,3 +98,5 @@
 ||zoamo.lgnas.com/zvod^
 ! 迅雷快传 六度提供 
 |http://kuai.xunlei.com^
+! 中国模特在线 显示不正常
+||xinsilu.com^
