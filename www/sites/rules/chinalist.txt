@@ -1,5 +1,5 @@
 [fireie 0.0.9]
-!  Checksum: 4wiKIuOC0eoTPZg2jCK3uQ
+!  Checksum: JD7fWL9sdHeMZp35tkfRtQ
 ! Expires: 2 days
 ! ===============================================
 !            User Agent Rules  
@@ -86,7 +86,9 @@
 ! 北京银行
 ||bankofbeijing.com.cn^
 ! 广发银行
-||cgbchina.com.cn^
+||cgbchina.com.cn^ 
+! 国家开发银行 DREAM A DREAMR提供
+||cdb.com.cn^
 ! -----------------------------------------------
 ! 政府网站
 ! -----------------------------------------------
@@ -103,3 +105,14 @@
 |http://kuai.xunlei.com^
 ! 中国模特在线 显示不正常
 ||xinsilu.com^
+! 万年历 DREAM A DREAMR提供
+||nongli.net^
+||http://site.baidu.com/list/wannianli.htm^
+||http://www.lzsq.net/wnl.htm^
+||http://www.k369.com/zy/zyindex13.htm^
+||http://www.time.ac.cn/calendar/calendar.htm^
+! -----------------------------------------------
+! 台湾
+! -----------------------------------------------
+!中華電信 gopc提供
+||hinet.net^
