@@ -1,5 +1,5 @@
 [fireie 0.0.9]
-!  Checksum: 8s+w7Uy1c4G3o+Z8PrXfag
+!  Checksum: w7XmVMJpReDzaSBqzQpuOg
 ! Expires: 2 days
 ! ===============================================
 !            User Agent Rules  
@@ -21,12 +21,14 @@
 ! -----------------------------------------------
 ! 第三方连支付宝
 ||tenpay.com/cgi-bin/*/pay_gate.cgi^
+||tenpay.com/gateway/pay.htm^
 |https://tradeexprod.alipay.com/gateway/exterfaceAssign.do*paymethod
 ! 财付通
 ||tenpay.com^
 ! 淘宝
 |https://cashier.alipay.com/standard/gateway/ebankPay.htm^
 |https://cashier.alipay.com/standard/gateway/ebankDeposit.htm^
+|http://trade.taobao.com/trade/confirm_goods.htm^
 ! 京东
 ||360buy.com/purchase/succeed_online.aspx^
 |http://payment.360buy.com/bank/payment_orderselect.aspx^
