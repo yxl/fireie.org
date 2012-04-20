@@ -111,6 +111,10 @@
 |http://www.lzsq.net/wnl.htm^
 |http://www.k369.com/zy/zyindex13.htm^
 |http://www.time.ac.cn/calendar/calendar.htm^
+! 驱动精灵在线版 xcffl提供
+||up.mydrivers.com^
+! 驱动人生在线检测 xcffl提供
+|http://www.160.com/OnLine^
 ! -----------------------------------------------
 ! 台湾
 ! -----------------------------------------------
