@@ -1,5 +1,5 @@
 [fireie 0.0.9]
-!  Checksum: JD7fWL9sdHeMZp35tkfRtQ
+!  Checksum: BM3hLLPbFBlnTs7PKnnUuA
 ! Expires: 2 days
 ! ===============================================
 !            User Agent Rules  
@@ -107,10 +107,10 @@
 ||xinsilu.com^
 ! 万年历 DREAM A DREAMR提供
 ||nongli.net^
-||http://site.baidu.com/list/wannianli.htm^
-||http://www.lzsq.net/wnl.htm^
-||http://www.k369.com/zy/zyindex13.htm^
-||http://www.time.ac.cn/calendar/calendar.htm^
+|http://site.baidu.com/list/wannianli.htm^
+|http://www.lzsq.net/wnl.htm^
+|http://www.k369.com/zy/zyindex13.htm^
+|http://www.time.ac.cn/calendar/calendar.htm^
 ! -----------------------------------------------
 ! 台湾
 ! -----------------------------------------------
