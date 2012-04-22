@@ -1,5 +1,5 @@
 [fireie 0.0.9]
-!  Checksum: ++do9aMGihv8CL7O5wRu/g
+!  Checksum: ftb6gS1I50WCx4D6I96PnA
 ! Expires: 2 days
 ! ===============================================
 !            User Agent Rules  
@@ -115,6 +115,8 @@
 ||up.mydrivers.com^
 ! 驱动人生在线检测 xcffl提供
 |http://www.160.com/OnLine^
+! QQ风尚 cisswa提供
+||style.qq.com^
 ! -----------------------------------------------
 ! 台湾
 ! -----------------------------------------------
