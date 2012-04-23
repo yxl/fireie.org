@@ -1,5 +1,5 @@
 [fireie 0.0.9]
-!  Checksum: ftb6gS1I50WCx4D6I96PnA
+!  Checksum: 83tXCnK5igqQ5+zfERdZ9g
 ! Expires: 2 days
 ! ===============================================
 !            User Agent Rules  
@@ -117,6 +117,8 @@
 |http://www.160.com/OnLine^
 ! QQ风尚 cisswa提供
 ||style.qq.com^
+! 中彩网 dream a dream提供
+|http://www.zhcw.com/ssq/jisuanqi^
 ! -----------------------------------------------
 ! 台湾
 ! -----------------------------------------------
