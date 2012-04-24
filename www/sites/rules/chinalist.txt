@@ -1,5 +1,5 @@
 [fireie 0.0.9]
-!  Checksum: 83tXCnK5igqQ5+zfERdZ9g
+!  Checksum: Ru9F4b2XZBaHTrD2UvAmJA
 ! Expires: 2 days
 ! ===============================================
 !            User Agent Rules  
@@ -101,8 +101,6 @@
 ! -----------------------------------------------
 ! zvod - cisswa提供
 ||zoamo.lgnas.com/zvod^
-! 迅雷快传 六度提供 
-|http://kuai.xunlei.com^
 ! 中国模特在线 显示不正常
 ||xinsilu.com^
 ! 万年历 DREAM A DREAMR提供
