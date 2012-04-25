@@ -27,8 +27,7 @@ background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, 
 background-image: -webkit-linear-gradient(top, #2f2f2f 0%, #1b1a1a 100%);
 /* Proposed W3C Markup */ 
 background-image: linear-gradient(top, #2f2f2f 0%, #1b1a1a 100%);
-/* IE6-9 */ 
-filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#2f2f2f', endColorstr='#1b1a1a'); }
+}
 
 #header-menu { background: #222222; border-top:1px solid #353535; border-bottom:1px solid #353535; }
 
