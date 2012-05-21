@@ -1,5 +1,5 @@
 [fireie 0.0.9]
-!  Checksum: Ru9F4b2XZBaHTrD2UvAmJA
+!  Checksum: FztNklSGJi6Dwp0wVrC6lQ
 ! Expires: 2 days
 ! ===============================================
 !            User Agent Rules  
@@ -89,6 +89,94 @@
 ||cgbchina.com.cn^ 
 ! 国家开发银行 DREAM A DREAMR提供
 ||cdb.com.cn^
+! 民生银行 yyq3663提供
+||cmbc.com.cn^
+! 农业发展银行 yyq3663提供
+||adbc.com.cn^
+! 平安银行 yyq3663提供
+||bank.pingan.com^
+! 徽商银行 yyq3663提供
+||hsbank.com.cn^
+! 天津银行 yyq3663提供
+||tccb.com.cn^
+! 渤海银行 yyq3663提供
+||cbhb.com.cn^
+! 上海银行 yyq3663提供
+||bankofshanghai.com^
+! 汉口银行 yyq3663提供
+||hkbchina.com^
+! 南京银行 yyq3663提供
+||njcb.com.cn^
+! 包商银行 yyq3663提供
+||bsb.com.cn^
+! 杭州银行 yyq3663提供
+||hzbank.com.cn^
+! 江苏银行 yyq3663提供
+||jsbchina.cn^
+! 广州银行 yyq3663提供
+||gzcb.com.cn^
+! 重庆银行 yyq3663提供
+||cqcbank.com^
+! 浙商银行 yyq3663提供
+||czbank.com^
+! 青岛银行 yyq3663提供
+||qdccb.com^
+! 成都银行 yyq3663提供
+||bocd.com.cn^
+! 哈尔滨银行 yyq3663提供
+||hrbcb.com.cn^
+! 恒丰银行 yyq3663提供
+||egbank.com.cn^
+! 大连银行 yyq3663提供
+||bankofdl.com^
+! 齐鲁银行 yyq3663提供
+||qlbchina.com^
+! 东莞银行 yyq3663提供
+||dongguanbank.cn^
+! 宁夏银行 yyq3663提供
+||ycccb.com^
+! 吉林银行 yyq3663提供
+||jlbank.com.cn^
+! 台州银行 yyq3663提供
+||tzbank.com^
+! 湖北银行 yyq3663提供
+||hubeibank.cn^
+! 河北银行 yyq3663提供
+||sccb.com.cn^
+! 长沙银行 yyq3663提供
+||cscb.cn^
+! 郑州银行 yyq3663提供
+||cbzz.com.cn^
+! 晋商银行 yyq3663提供
+||jshbank.com^
+! 龙江银行 yyq3663提供
+||lj-bank.com^
+! 晋城银行 yyq3663提供
+||jccbank.com.cn^
+! 北京农商银行 yyq3663提供
+||bjrcb.com^
+! 上海农商银行 yyq3663提供
+||srcb.com^
+! 深圳农商银行 yyq3663提供
+||4001961200.com^
+! 重庆农商银行 yyq3663提供
+||cqrcb.com^
+! 广州农商银行 yyq3663提供
+||961111.cn^
+! 东莞农商银行 yyq3663提供
+||drcbank.com^
+! 武汉农商银行 yyq3663提供
+||whrcbank.com^
+! 花旗银行 yyq3663提供
+||citibank.com.cn^
+! 汇丰银行 yyq3663提供
+||hsbc.com.cn^
+! 渣打银行 yyq3663提供
+||standardchartered.com.cn^
+! 恒生银行 yyq3663提供
+||hangseng.com^
+! 东亚银行 yyq3663提供
+||hkbea.com.cn^
 ! -----------------------------------------------
 ! 政府网站
 ! -----------------------------------------------
