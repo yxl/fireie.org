@@ -1,5 +1,5 @@
 [fireie 0.0.9]
-!  Checksum: FztNklSGJi6Dwp0wVrC6lQ
+!  Checksum: aLa7xdh5/aYJ+KSif5VfRg
 ! Expires: 2 days
 ! ===============================================
 !            User Agent Rules  
@@ -50,49 +50,53 @@
 ||dangdang.com^
 ! 银河证券
 ||chinastock.com.cn^
-! 10086 中国移动
-||10086.cn
 ! 糯米
 ||nuomi.com/buy^
 ! 拉手
 ||lashou.com/buy.php^
+! 中国移动
+||10086.cn
+! 中国联通 yyq3663提供
+||10010.com
+! 中国电信 yyq3663提供
+||189.cn
 ! -----------------------------------------------
 ! 银行
 ! -----------------------------------------------
 ! 工商银行
 ||icbc.com.cn^
-! 招商银行
-||cmbchina.com^
-! 中国农业银行 dream a dream提供
+! 农业银行 dream a dream提供
 ||abchina.com^
-||95599.cn^ 
-! 中信银行
-||ecitic.com^
-! 光大银行
-||cebbank.com^
+||95599.cn^
 ! 中国银行
 ||boc.cn^
 ! 交通银行
 ||bankcomm.com^
 ||95559.com.cn^
-! 兴业银行
-||cib.com.cn^
-! 深发展银行
-||sdb.com.cn^
-! 华夏银行
-||hxb.com.cn^
-! 中国邮政储蓄
-||psbc.com^
-! 北京银行
-||bankofbeijing.com.cn^
-! 广发银行
-||cgbchina.com.cn^ 
-! 国家开发银行 DREAM A DREAMR提供
-||cdb.com.cn^
+! 招商银行
+||cmbchina.com^
 ! 民生银行 yyq3663提供
 ||cmbc.com.cn^
+! 广发银行
+||cgbchina.com.cn^
+! 中信银行
+||ecitic.com^
+! 光大银行
+||cebbank.com^
+! 兴业银行
+||cib.com.cn^
+! 华夏银行
+||hxb.com.cn^
+! 邮政储蓄银行
+||psbc.com^
+! 国家开发银行 dream a dream提供
+||cdb.com.cn^
 ! 农业发展银行 yyq3663提供
 ||adbc.com.cn^
+! 深发展银行
+||sdb.com.cn^
+! 北京银行
+||bankofbeijing.com.cn^
 ! 平安银行 yyq3663提供
 ||bank.pingan.com^
 ! 徽商银行 yyq3663提供
@@ -103,10 +107,10 @@
 ||cbhb.com.cn^
 ! 上海银行 yyq3663提供
 ||bankofshanghai.com^
-! 汉口银行 yyq3663提供
-||hkbchina.com^
 ! 南京银行 yyq3663提供
 ||njcb.com.cn^
+! 汉口银行 yyq3663提供
+||hkbchina.com^
 ! 包商银行 yyq3663提供
 ||bsb.com.cn^
 ! 杭州银行 yyq3663提供
