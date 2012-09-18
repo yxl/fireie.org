@@ -1,13 +1,21 @@
-[fireie 0.0.9]
-!  Checksum: u5wrJFD51FmvVzBu93TktA
+[fireie 0.2.8]
+!  Checksum: OyBzAm1PacweI4HiGBCQIA
+! Last modified: Tue, 18 Sep 2012 00:55:10 GMT
 ! Expires: 2 days
 ! ===============================================
 !            User Agent Rules  
 ! ===============================================
 ##||firefox.net.cn^
 ##||360buy.com^
+! 工商银行 现支持Firefox ESR
+##||icbc.com.cn^$SPECIAL-UA=ESR
 ! 高品质时尚圈 LongW提供
 ##||kctime.com^
+! 快乐de忘记 提供
+##||bbs.aptx.cn^
+##||17k.com^
+! wwqq3 提供
+##||tskscn.com^
 ! ===============================================
 !               Engine Rules
 ! ===============================================
@@ -55,16 +63,18 @@
 ! 拉手
 ||lashou.com/buy.php^
 ! 中国移动
-||10086.cn
+||10086.cn^
+! Issue #54, 站点本身支持Firefox
+@@||cmpay.10086.cn^
 ! 中国联通 yyq3663提供
-||10010.com
+||10010.com^
 ! 中国电信 yyq3663提供
-||189.cn
+||189.cn^
 ! -----------------------------------------------
 ! 银行
 ! -----------------------------------------------
-! 工商银行
-||icbc.com.cn^
+! 工商银行 现支持Firefox ESR
+@@||icbc.com.cn^
 ! 农业银行 dream a dream提供
 ||abchina.com^
 ||95599.cn^
@@ -181,6 +191,8 @@
 ||hangseng.com^
 ! 东亚银行 yyq3663提供
 ||hkbea.com.cn^
+! 江苏农信 荒郊顽石 提供
+||js96008.com^
 ! -----------------------------------------------
 ! 政府网站
 ! -----------------------------------------------
@@ -188,9 +200,14 @@
 ||hnqx.gov.cn^
 ! 国家工商行政管理总局 cisswa 提供
 ||saic.gov.cn^
+! 重庆两江 mxyvsyr 提供
+||liangjiang.gov.cn^
 ! -----------------------------------------------
 ! 其他
 ! -----------------------------------------------
+! 微软自动更新
+||windowsupdate.com^
+||update.microsoft.com^
 ! zvod - cisswa提供
 ||zoamo.lgnas.com/zvod^
 ! 中国模特在线 显示不正常
@@ -211,6 +228,21 @@
 |http://www.zhcw.com/ssq/jisuanqi^
 ! 精华在线 cisswa提供
 |http://www.jinghua.com/lecture/listen_*.html
+! wangstage 提供
+||asiatvro.com^
+! 司考吧首页 Pp 提供
+|http://www.sikao8.com^
+@@|http://www.sikao8.com/bbs^
+! 詹胡波 提供
+||home.1smart.org^
+! 畅听网仅支持IE 天生&有用 提供
+||ting85.com^
+! 赶集网信息发布 京雀 提供
+|http://www.ganji.com/pub/pub.php^
+! 雨过天晴 zhouyuan 提供
+||njanyue.com^
+! 百姓网发布 缘来如此 提供
+|http://www.baixing.com/fabu^
 ! -----------------------------------------------
 ! 台湾
 ! -----------------------------------------------
