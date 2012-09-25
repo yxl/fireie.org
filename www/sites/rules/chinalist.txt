@@ -1,6 +1,6 @@
 [fireie 0.2.8]
-!  Checksum: OyBzAm1PacweI4HiGBCQIA
-! Last modified: Tue, 18 Sep 2012 00:55:10 GMT
+!  Checksum: A/o5u2JuWgbN5ViPQijjWA
+! Last modified: Tue, 25 Sep 2012 06:00:12 GMT
 ! Expires: 2 days
 ! ===============================================
 !            User Agent Rules  
@@ -73,8 +73,8 @@
 ! -----------------------------------------------
 ! 银行
 ! -----------------------------------------------
-! 工商银行 现支持Firefox ESR
-@@||icbc.com.cn^
+! 工商银行
+||icbc.com.cn^
 ! 农业银行 dream a dream提供
 ||abchina.com^
 ||95599.cn^
