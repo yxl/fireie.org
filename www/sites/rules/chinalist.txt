@@ -1,6 +1,6 @@
 [fireie 0.2.8]
-!  Checksum: A/o5u2JuWgbN5ViPQijjWA
-! Last modified: Tue, 25 Sep 2012 06:00:12 GMT
+!  Checksum: Of5LseZSZOret+mR9T9Amw
+! Last modified: Mon, 01 Oct 2012 18:25:09 GMT
 ! Expires: 2 days
 ! ===============================================
 !            User Agent Rules  
@@ -70,6 +70,11 @@
 ||10010.com^
 ! 中国电信 yyq3663提供
 ||189.cn^
+! 电信189邮箱，支持Firefox Pp 提供
+@@||webmail*.189.cn^
+@@||passport.189.cn^
+! 四川航空 凡戈 提供
+||qunar.scal.com.cn/scal/order.jsp^
 ! -----------------------------------------------
 ! 银行
 ! -----------------------------------------------
@@ -202,6 +207,8 @@
 ||saic.gov.cn^
 ! 重庆两江 mxyvsyr 提供
 ||liangjiang.gov.cn^
+! 工信部电信用户申诉页面 凡戈 提供
+||www.chinatcc.gov.cn^*/cmsadmin/shouli/shensu.jsp^
 ! -----------------------------------------------
 ! 其他
 ! -----------------------------------------------
@@ -233,6 +240,9 @@
 ! 司考吧首页 Pp 提供
 |http://www.sikao8.com^
 @@|http://www.sikao8.com/bbs^
+! 中国政法大学选课系统 Pp 提供
+||202.205.64.79^
+||202.205.64.80^
 ! 詹胡波 提供
 ||home.1smart.org^
 ! 畅听网仅支持IE 天生&有用 提供
