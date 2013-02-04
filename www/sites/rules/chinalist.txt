@@ -1,6 +1,6 @@
 [fireie 0.2.8]
-!  Checksum: Of5LseZSZOret+mR9T9Amw
-! Last modified: Mon, 01 Oct 2012 18:25:09 GMT
+!  Checksum: NFB5wNOCVO1pjUDSYnICTw
+! Last Modified:  Mon, 04 Feb 2013 16:08:19 +0800
 ! Expires: 2 days
 ! ===============================================
 !            User Agent Rules  
@@ -253,6 +253,8 @@
 ||njanyue.com^
 ! 百姓网发布 缘来如此 提供
 |http://www.baixing.com/fabu^
+! 快乐de忘记 提供
+||sqtv.net^
 ! -----------------------------------------------
 ! 台湾
 ! -----------------------------------------------
