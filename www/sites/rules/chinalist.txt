@@ -1,11 +1,10 @@
 [fireie 0.2.8]
-!  Checksum: NFB5wNOCVO1pjUDSYnICTw
-! Last Modified:  Mon, 04 Feb 2013 16:08:19 +0800
+!  Checksum: 3wnmY4CHRSS5eShvEiin3g
+! Last Modified:  Wed, 01 May 2013 15:54:23 +0800
 ! Expires: 2 days
 ! ===============================================
 !            User Agent Rules  
 ! ===============================================
-##||firefox.net.cn^
 ##||360buy.com^
 ! 工商银行 现支持Firefox ESR
 ##||icbc.com.cn^$SPECIAL-UA=ESR
@@ -27,20 +26,20 @@
 ! -----------------------------------------------
 ! 购物及支付 由魏大鹏提供
 ! -----------------------------------------------
+! 以下注释掉的网站基本能很好支持Firefox，需要时建议手动切换
 ! 第三方连支付宝
-||tenpay.com/cgi-bin/*/pay_gate.cgi^
-||tenpay.com/gateway/pay.htm^
-|https://tradeexprod.alipay.com/gateway/exterfaceAssign.do*paymethod
+!|https://tradeexprod.alipay.com/gateway/exterfaceAssign.do*paymethod
 ! 财付通
 ||tenpay.com^
+!||tenpay.com/cgi-bin/*/pay_gate.cgi^
+!||tenpay.com/gateway/pay.htm^
 ! 淘宝
-|https://cashier.alipay.com/standard/gateway/ebankPay.htm^
-|https://cashier.alipay.com/standard/gateway/ebankDeposit.htm^
-|http://trade.taobao.com/trade/confirm_goods.htm^
-|https://cashier.alipay.com/standard/payment^
-! 京东
-||360buy.com/purchase/succeed_online.aspx^
-|http://payment.360buy.com/bank/payment_orderselect.aspx^
+!|https://cashier.alipay.com/standard/gateway/ebankPay.htm^
+!|https://cashier.alipay.com/standard/gateway/ebankDeposit.htm^
+!|http://trade.taobao.com/trade/confirm_goods.htm^
+!|https://cashier.alipay.com/standard/payment^
+! 京东，有用户反映此页面跳转到银行支付页面时无法自动切换到兼容模式
+||pay.jd.com/paymentConfirm.action^
 ! 亚马逊
 ||amazon.cn/gp/buy^
 ||amazon.cn/gp/css/ep^
@@ -49,13 +48,13 @@
 |http://pay.vancl.com/Shopping_Paid.aspx^
 |http://om.vancl.com/Checkout/ShoppingPay^
 ! 新蛋
-|https://secure.newegg.com.cn/Order/OrderDetail.aspx^
-|https://secure.newegg.com.cn/Order/ChangeSOThankYou.aspx^
-|https://secure.newegg.com.cn/shopping/CheckOut.aspx^
+!|https://secure.newegg.com.cn/Order/OrderDetail.aspx^
+!|https://secure.newegg.com.cn/Order/ChangeSOThankYou.aspx^
+!|https://secure.newegg.com.cn/shopping/CheckOut.aspx^
 !12306
 ||12306.cn^
 ! 当当
-||dangdang.com^
+!||dangdang.com^
 ! 银河证券
 ||chinastock.com.cn^
 ! 糯米
@@ -209,6 +208,9 @@
 ||liangjiang.gov.cn^
 ! 工信部电信用户申诉页面 凡戈 提供
 ||www.chinatcc.gov.cn^*/cmsadmin/shouli/shensu.jsp^
+! 国家统计局 dream a dream 提供
+|http://www.stats.gov.cn/tjsj/pcsj/*pc/*/indexc*.htm^
+|http://www.stats.gov.cn/tjsj/ndsj/*/indexc*.htm^
 ! -----------------------------------------------
 ! 其他
 ! -----------------------------------------------
@@ -240,9 +242,9 @@
 ! 司考吧首页 Pp 提供
 |http://www.sikao8.com^
 @@|http://www.sikao8.com/bbs^
-! 中国政法大学选课系统 Pp 提供
-||202.205.64.79^
-||202.205.64.80^
+! 中国政法大学选课系统 rpzrpz123 提供
+||urp.cupl.edu.cn^
+||video.cupl.edu.cn^
 ! 詹胡波 提供
 ||home.1smart.org^
 ! 畅听网仅支持IE 天生&有用 提供
@@ -255,6 +257,24 @@
 |http://www.baixing.com/fabu^
 ! 快乐de忘记 提供
 ||sqtv.net^
+! 稻草 提供
+||gxsdxy.cn^
+! 重庆日报农村版 ang0610 提供
+||cqrbncb.cqnews.net^
+! dream a dream 提供
+||xinjipin.com^
+||hlu.edu.cn^
+||jpskb.com^
+! 转贴工具 由于Firefox默认不允许访问剪贴板所致 蜗牛漫步 提供
+|http://www.123cha.com/zt^
+|http://tool.114la.com/site/zhuantie^
+|http://bbs.crsky.com/ztgj.htm^
+|http://www.zhenbi.com/hi/zhuantie.htm^
+|http://net.hnol.net/ubb.htm^
+! pennguo 提供
+||33md.cc^
+! Bing 提供
+||qire123.com^
 ! -----------------------------------------------
 ! 台湾
 ! -----------------------------------------------
