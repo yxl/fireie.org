@@ -1,6 +1,6 @@
 [fireie 0.2.8]
-!  Checksum: z4qJggFS67evXO/iQh88Zw
-! Last Modified:  Thu, 02 May 2013 01:00:40 +0800
+!  Checksum: LxtFULx6g8wuI3b7jq4zLw
+! Last Modified:  Thu, 02 May 2013 01:34:41 +0800
 ! Expires: 2 days
 ! ===============================================
 !            User Agent Rules  
@@ -84,8 +84,8 @@
 ! 交通银行
 ||bankcomm.com^
 ||95559.com.cn^
-! 招商银行
-||cmbchina.com^
+! 招商银行 已支持Firefox
+!||cmbchina.com^
 ! 民生银行 yyq3663提供
 ||cmbc.com.cn^
 ! 广发银行
