@@ -8,7 +8,7 @@
   <body>
 <?php
    // execute `git pull` and save the result to file
-   system("/usr/local/bin/git pull > result.txt 2>&1");
+   system("git pull > result.txt 2>&1");
    // show the result
    $filename = "result.txt";
    $fp = fopen($filename, "r");
