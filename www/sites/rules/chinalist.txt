@@ -36,21 +36,18 @@
 ! 淘宝
 !|https://cashier.alipay.com/standard/gateway/ebankPay.htm^
 !|https://cashier.alipay.com/standard/gateway/ebankDeposit.htm^
-!|http://trade.taobao.com/trade/confirm_goods.htm^
-!|https://cashier.alipay.com/standard/payment^
-! 京东，有用户反映此页面跳转到银行支付页面时无法自动切换到兼容模式
-||pay.jd.com/paymentConfirm.action^
+! 京东
+|http://payment.360buy.com/bank/payment_orderselect.aspx^
+||jd.com/order/successOrder/getSuccessOrder.action^
+||jd.com/purchase/succeed_online.aspx^
+|http://payment.jd.com/bank/payment_orderselect.aspx^
 ! 亚马逊
 ||amazon.cn/gp/buy^
 ||amazon.cn/gp/css/ep^
 ! 凡客
-|https://shopping.vancl.com/shoppingcar^
-|http://pay.vancl.com/Shopping_Paid.aspx^
-|http://om.vancl.com/Checkout/ShoppingPay^
+|http://pay.vancl.com/Pay_Check.aspx?OrderID=^
 ! 新蛋
-!|https://secure.newegg.com.cn/Order/OrderDetail.aspx^
-!|https://secure.newegg.com.cn/Order/ChangeSOThankYou.aspx^
-!|https://secure.newegg.com.cn/shopping/CheckOut.aspx^
+|https://secure.newegg.com.cn/Ajax/ChangeSO/AjaxCheckSOPay.aspx^
 !12306
 ||12306.cn^
 ! 当当
@@ -97,8 +94,8 @@
 ||ecitic.com^
 ! 光大银行
 ||cebbank.com^
-! 兴业银行
-||cib.com.cn^
+! 兴业银行 已支持Firefox 火凤凰提供 
+!||cib.com.cn^
 ! 华夏银行
 ||hxb.com.cn^
 ! 邮政储蓄银行
@@ -275,6 +272,8 @@
 ||33md.cc^
 ! Bing 提供
 ||qire123.com^
+! 中国会计网 谋智火狐提供
+||member.chinaacc.com//selectcourse/confirmSelect.shtm^
 ! -----------------------------------------------
 ! 台湾
 ! -----------------------------------------------
