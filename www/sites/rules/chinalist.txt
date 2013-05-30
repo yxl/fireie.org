@@ -1,6 +1,6 @@
 [fireie 0.2.8]
-!  Checksum: LxtFULx6g8wuI3b7jq4zLw
-! Last Modified:  Thu, 02 May 2013 01:34:41 +0800
+!  Checksum: G3wzghuak37yZeigkt5rfQ
+! Last Modified:  Fri, 31 May 2013 03:30:49 +0800
 ! Expires: 2 days
 ! ===============================================
 !            User Agent Rules  
@@ -208,6 +208,8 @@
 ! 国家统计局 dream a dream 提供
 |http://www.stats.gov.cn/tjsj/pcsj/*pc/*/indexc*.htm^
 |http://www.stats.gov.cn/tjsj/ndsj/*/indexc*.htm^
+! 广州市人力资源和社会保障局 dream a dream提供
+||gzlss.gov.cn^
 ! -----------------------------------------------
 ! 其他
 ! -----------------------------------------------
