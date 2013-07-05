@@ -1,13 +1,11 @@
 [fireie 0.2.8]
-!  Checksum: jVwft4CmK/dwUR8o246Gug
-! Last Modified:  Tue, 04 Jun 2013 05:00:27 +0800
+!  Checksum: nti3dmhH9btm8uy6pFdaTQ
+! Last Modified:  Fri, 05 Jul 2013 11:33:50 +0800
 ! Expires: 2 days
 ! ===============================================
 !            User Agent Rules  
 ! ===============================================
 ##||jd.com^
-! 工商银行 现支持Firefox ESR
-##||icbc.com.cn^$SPECIAL-UA=ESR
 ! 高品质时尚圈 LongW提供
 ##||kctime.com^
 ! 快乐de忘记 提供
