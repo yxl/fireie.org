@@ -1,6 +1,6 @@
 [fireie 0.2.8]
-!  Checksum: rnhySUe50W2d2DufxmnNYg
-! Last Modified:  Sat, 13 Jul 2013 13:46:08 +0800
+!  Checksum: sCHZ5zcGu4+DceM86fKLBw
+! Last Modified:  Tue, 03 Sep 2013 18:53:37 +0800
 ! Expires: 2 days
 ! ===============================================
 !            User Agent Rules  
@@ -281,3 +281,71 @@
 ! -----------------------------------------------
 !中華電信 gopc提供
 ||hinet.net^
+!中華郵政ATM elic2577提供
+||webatm.post.gov.tw^
+!臺灣銀行ATM elic2577提供
+||ebank.bot.com.tw^
+!臺灣土地銀行ATM elic2577提供
+||eatm.landbank.com.tw^
+!合作金庫商業銀行ATM elic2577提供
+||eatm.tcb-bank.com.tw^
+!第一商業銀行ATM elic2577提供
+||eatm.firstbank.com.tw^
+!華南商業銀行ATM elic2577提供
+||www.smartatm.com.tw^
+!彰化商業銀行ATM elic2577提供
+||eatm.chb.com.tw^
+!上海商業儲蓄銀行ATM elic2577提供
+||eatm.scsb.com.tw^
+!台北富邦商業銀行ATM elic2577提供
+||ebank.taipeifubon.com.tw^
+!國泰世華商業銀行ATM elic2577提供
+||www.mybank.com.tw^
+!中華開發工業銀行ATM elic2577提供
+||ebank.cdibank.com^
+!兆豐國際商業銀行ATM elic2577提供
+||netbank.megabank.com.tw^
+!全國農業金庫ATM elic2577提供
+||ebank.agribank.com.tw^
+!花旗（台灣）商業銀行ATM elic2577提供
+||webatm.citibank.com.tw^
+!高雄銀行ATM elic2577提供
+||ebank.bok.com.tw^
+!臺灣中小企業銀行ATM elic2577提供
+||nnb.tbb.com.tw^
+!台中商業銀行ATM elic2577提供
+||myatm.tcbbank.com.tw^
+!京城商業銀行ATM elic2577提供
+||eatm.ktb.com.tw^
+!大台北商業銀行ATM elic2577提供
+||ebank.bankoftaipei.com.tw^
+!臺灣新光商業銀行ATM elic2577提供
+||ibank.skbank.com.tw^
+!陽信商業銀行ATM elic2577提供
+||eatm.esunnybank.com.tw^
+!板信商業銀行ATM elic2577提供
+||webatm.bop.com.tw^
+!三信商業銀行ATM elic2577提供
+||ebank.cotabank.com.tw^
+!聯邦商業銀行ATM elic2577提供
+||atm.ubot.com.tw^
+!遠東國際商業銀行ATM elic2577提供
+||ebank.feib.com.tw^
+!元大商業銀行ATM elic2577提供
+||superatm.tw^
+!永豐商業銀行ATM elic2577提供
+||atm.mma.com.tw^
+!玉山商業銀行ATM elic2577提供
+||netbank.esunbank.com.tw^
+!萬泰商業銀行ATM elic2577提供
+||iccard.cosmosbank.com.tw^
+!台新國際商業銀行ATM elic2577提供
+||my.taishinbank.com.tw^
+!大眾商業銀行ATM elic2577提供
+||www.121atm.com.tw^
+!日盛國際商業銀行ATM elic2577提供
+||webatm.jihsunbank.com.tw^
+!安泰商業銀行ATM elic2577提供
+||webatm.entiebank.com.tw^
+!中國信託商業銀行ATM elic2577提供
+||family.chinatrust.com.tw^
