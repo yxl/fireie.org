@@ -1,6 +1,6 @@
 [fireie 0.2.8]
-!  Checksum: sCHZ5zcGu4+DceM86fKLBw
-! Last Modified:  Tue, 03 Sep 2013 18:53:37 +0800
+!  Checksum: M6RG5rJnDsy55YhlAbsxJw
+! Last Modified:  Sat, 14 Sep 2013 13:22:14 +0800
 ! Expires: 2 days
 ! ===============================================
 !            User Agent Rules  
@@ -276,6 +276,8 @@
 ||qire123.com^
 ! 中国会计网 谋智火狐提供
 ||member.chinaacc.com//selectcourse/confirmSelect.shtm^
+! xiaoyaoyingjie 提供
+||www.merida.cn/cn/prod/detail.asp^
 ! -----------------------------------------------
 ! 台湾
 ! -----------------------------------------------
