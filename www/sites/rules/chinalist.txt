@@ -1,6 +1,6 @@
 [fireie 0.2.8]
-!  Checksum: M6RG5rJnDsy55YhlAbsxJw
-! Last Modified:  Sat, 14 Sep 2013 13:22:14 +0800
+!  Checksum: U4qHaxzBq86WwWQSbFSECg
+! Last Modified:  Fri, 11 Oct 2013 18:36:22 +0800
 ! Expires: 2 days
 ! ===============================================
 !            User Agent Rules  
@@ -256,6 +256,7 @@
 |http://www.baixing.com/fabu^
 ! 快乐de忘记 提供
 ||sqtv.net^
+||pep.com.cn^
 ! 稻草 提供
 ||gxsdxy.cn^
 ! 重庆日报农村版 ang0610 提供
