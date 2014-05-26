@@ -1,6 +1,6 @@
 [fireie 0.2.8]
-!  Checksum: U4qHaxzBq86WwWQSbFSECg
-! Last Modified:  Fri, 11 Oct 2013 18:36:22 +0800
+!  Checksum: Ac3g5yvLh46C1M3LsUoEjA
+! Last Modified:  Mon, 26 May 2014 20:36:45 +0800
 ! Expires: 2 days
 ! ===============================================
 !            User Agent Rules  
@@ -279,6 +279,8 @@
 ||member.chinaacc.com//selectcourse/confirmSelect.shtm^
 ! xiaoyaoyingjie 提供
 ||www.merida.cn/cn/prod/detail.asp^
+! 新浪围棋棋谱
+||duiyi.sina.com.cn/giboview/giboview.asp^
 ! -----------------------------------------------
 ! 台湾
 ! -----------------------------------------------
