@@ -1,6 +1,6 @@
 [fireie 0.2.8]
-!  Checksum: Ac3g5yvLh46C1M3LsUoEjA
-! Last Modified:  Mon, 26 May 2014 20:36:45 +0800
+!  Checksum: jKBa+/xzXK9XD2fl21kHqQ
+! Last Modified:  Thu, 06 Nov 2014 03:52:14 +0800
 ! Expires: 2 days
 ! ===============================================
 !            User Agent Rules  
@@ -213,9 +213,6 @@
 ! -----------------------------------------------
 ! 其他
 ! -----------------------------------------------
-! 微软自动更新
-||windowsupdate.com^
-||update.microsoft.com^
 ! zvod - cisswa提供
 ||zoamo.lgnas.com/zvod^
 ! 中国模特在线 显示不正常
