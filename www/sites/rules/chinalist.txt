@@ -1,6 +1,6 @@
 [fireie 0.2.8]
-!  Checksum: 80QYICRc7PlXSve927+kcA
-! Last Modified:  Fri, 07 Nov 2014 19:35:09 +0800
+!  Checksum: vq2qLySPQjV0JZfuqpCXqA
+! Last Modified:  Thu, 05 Feb 2015 20:39:58 +0800
 ! Expires: 2 days
 ! ===============================================
 !            User Agent Rules  
@@ -90,8 +90,8 @@
 ||cmbc.com.cn^
 ! 广发银行
 ||cgbchina.com.cn^
-! 中信银行
-||ecitic.com^
+! 中信银行 (yxl/Fire-IE#147)
+||e.bank.ecitic.com^
 ! 光大银行
 ||cebbank.com^
 ! 兴业银行 已支持Firefox 火凤凰提供 
@@ -194,6 +194,8 @@
 ||hkbea.com.cn^
 ! 江苏农信 荒郊顽石 提供
 ||js96008.com^
+! 无锡农村商业银行 由 renyouguo 提供 (yxl/Fire-IE#149)
+||ebank.wrcb.com.cn^
 ! -----------------------------------------------
 ! 政府网站
 ! -----------------------------------------------
@@ -280,6 +282,8 @@
 ||www.merida.cn/cn/prod/detail.asp^
 ! 新浪围棋棋谱
 ||duiyi.sina.com.cn/giboview/giboview.asp^
+! 证券从业人员资格考试网上报名(主动要求IE) 由 renyouguo 提供 (yxl/Fire-IE#148)
+||sac.ata.net.cn^
 ! -----------------------------------------------
 ! 台湾
 ! -----------------------------------------------
