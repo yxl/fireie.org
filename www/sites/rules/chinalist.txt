@@ -1,6 +1,6 @@
 [fireie 0.2.8]
-!  Checksum: vq2qLySPQjV0JZfuqpCXqA
-! Last Modified:  Thu, 05 Feb 2015 20:39:58 +0800
+!  Checksum: viqaYIjc7aVkMEWnzKNNnQ
+! Last Modified:  Thu, 05 Mar 2015 20:12:02 +0800
 ! Expires: 2 days
 ! ===============================================
 !            User Agent Rules  
@@ -37,7 +37,6 @@
 !|https://cashier.alipay.com/standard/gateway/ebankPay.htm^
 !|https://cashier.alipay.com/standard/gateway/ebankDeposit.htm^
 ! 京东
-|http://payment.360buy.com/bank/payment_orderselect.aspx^
 ||jd.com/order/successOrder/getSuccessOrder.action^
 ||jd.com/purchase/succeed_online.aspx^
 |http://payment.jd.com/bank/payment_orderselect.aspx^
@@ -212,6 +211,8 @@
 |http://www.stats.gov.cn/tjsj/ndsj/*/indexc*.htm^
 ! 广州市人力资源和社会保障局 dream a dream提供
 ||gzlss.gov.cn^
+! 江苏省律师管理系统 renyouguo 提供
+||www.jssf.gov.cn^*^lawyer^
 ! -----------------------------------------------
 ! 其他
 ! -----------------------------------------------
