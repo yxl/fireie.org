@@ -1,0 +1,360 @@
+[fireie 0.2.8]
+!  Checksum: viqaYIjc7aVkMEWnzKNNnQ
+! Last Modified:  Thu, 05 Mar 2015 20:12:02 +0800
+! Expires: 2 days
+! ===============================================
+!            User Agent Rules  
+! ===============================================
+##||jd.com^
+! 工商银行 现支持Firefox ESR
+##||icbc.com.cn^$SPECIAL-UA=ESR
+! 高品质时尚圈 LongW提供
+##||kctime.com^
+! 快乐de忘记 提供
+##||bbs.aptx.cn^
+##||17k.com^
+! wwqq3 提供
+##||tskscn.com^
+! ===============================================
+!               Engine Rules
+! ===============================================
+! -----------------------------------------------
+! 特殊类别
+! -----------------------------------------------
+! MHTML 文档 
+|file:///*.mht^
+! -----------------------------------------------
+! 购物及支付 由魏大鹏提供
+! -----------------------------------------------
+! 以下注释掉的网站基本能很好支持Firefox，需要时建议手动切换
+! 第三方连支付宝
+!|https://tradeexprod.alipay.com/gateway/exterfaceAssign.do*paymethod
+! 财付通
+||tenpay.com^
+!||tenpay.com/cgi-bin/*/pay_gate.cgi^
+!||tenpay.com/gateway/pay.htm^
+! 淘宝
+!|https://cashier.alipay.com/standard/gateway/ebankPay.htm^
+!|https://cashier.alipay.com/standard/gateway/ebankDeposit.htm^
+! 京东
+||jd.com/order/successOrder/getSuccessOrder.action^
+||jd.com/purchase/succeed_online.aspx^
+|http://payment.jd.com/bank/payment_orderselect.aspx^
+! 亚马逊
+||amazon.cn/gp/buy^
+||amazon.cn/gp/css/ep^
+! 凡客
+|http://pay.vancl.com/Pay_Check.aspx?OrderID=^
+! 新蛋
+|https://secure.newegg.com.cn/Ajax/ChangeSO/AjaxCheckSOPay.aspx^
+!12306
+||12306.cn^
+! 当当
+!||dangdang.com^
+! 银河证券
+||chinastock.com.cn^
+! 糯米
+||nuomi.com/buy^
+! 拉手
+||lashou.com/buy.php^
+! 中国移动
+||10086.cn^
+! Issue #54, 站点本身支持Firefox
+@@||cmpay.10086.cn^
+! 中国联通 yyq3663提供
+||10010.com^
+! 中国电信 yyq3663提供
+||189.cn^
+! 电信189邮箱，支持Firefox Pp 提供
+@@||webmail*.189.cn^
+@@||passport.189.cn^
+! 四川航空 凡戈 提供
+||qunar.scal.com.cn/scal/order.jsp^
+! -----------------------------------------------
+! 银行
+! -----------------------------------------------
+! 工商银行
+||icbc.com.cn^
+! 农业银行 dream a dream提供
+||abchina.com^
+||95599.cn^
+! 中国银行
+||boc.cn^
+! 交通银行
+||bankcomm.com^
+||95559.com.cn^
+! 招商银行 已支持Firefox
+!||cmbchina.com^
+! 民生银行 yyq3663提供
+||cmbc.com.cn^
+! 广发银行
+||cgbchina.com.cn^
+! 中信银行 (yxl/Fire-IE#147)
+||e.bank.ecitic.com^
+! 光大银行
+||cebbank.com^
+! 兴业银行 已支持Firefox 火凤凰提供 
+!||cib.com.cn^
+! 华夏银行
+||hxb.com.cn^
+! 邮政储蓄银行
+||psbc.com^
+! 国家开发银行 dream a dream提供
+||cdb.com.cn^
+! 农业发展银行 yyq3663提供
+||adbc.com.cn^
+! 深发展银行
+||sdb.com.cn^
+! 北京银行
+||bankofbeijing.com.cn^
+! 平安银行 yyq3663提供
+||bank.pingan.com^
+! 徽商银行 yyq3663提供
+||hsbank.com.cn^
+! 天津银行 yyq3663提供
+||tccb.com.cn^
+! 渤海银行 yyq3663提供
+||cbhb.com.cn^
+! 上海银行 yyq3663提供
+||bankofshanghai.com^
+! 南京银行 yyq3663提供
+||njcb.com.cn^
+! 汉口银行 yyq3663提供
+||hkbchina.com^
+! 包商银行 yyq3663提供
+||bsb.com.cn^
+! 杭州银行 yyq3663提供
+||hzbank.com.cn^
+! 江苏银行 yyq3663提供
+||jsbchina.cn^
+! 广州银行 yyq3663提供
+||gzcb.com.cn^
+! 重庆银行 yyq3663提供
+||cqcbank.com^
+! 浙商银行 yyq3663提供
+||czbank.com^
+! 青岛银行 yyq3663提供
+||qdccb.com^
+! 成都银行 yyq3663提供
+||bocd.com.cn^
+! 哈尔滨银行 yyq3663提供
+||hrbcb.com.cn^
+! 恒丰银行 yyq3663提供
+||egbank.com.cn^
+! 大连银行 yyq3663提供
+||bankofdl.com^
+! 齐鲁银行 yyq3663提供
+||qlbchina.com^
+! 东莞银行 yyq3663提供
+||dongguanbank.cn^
+! 宁夏银行 yyq3663提供
+||ycccb.com^
+! 吉林银行 yyq3663提供
+||jlbank.com.cn^
+! 台州银行 yyq3663提供
+||tzbank.com^
+! 湖北银行 yyq3663提供
+||hubeibank.cn^
+! 河北银行 yyq3663提供
+||sccb.com.cn^
+! 长沙银行 yyq3663提供
+||cscb.cn^
+! 郑州银行 yyq3663提供
+||cbzz.com.cn^
+! 晋商银行 yyq3663提供
+||jshbank.com^
+! 龙江银行 yyq3663提供
+||lj-bank.com^
+! 晋城银行 yyq3663提供
+||jccbank.com.cn^
+! 北京农商银行 yyq3663提供
+||bjrcb.com^
+! 上海农商银行 yyq3663提供
+||srcb.com^
+! 深圳农商银行 yyq3663提供
+||4001961200.com^
+! 重庆农商银行 yyq3663提供
+||cqrcb.com^
+! 广州农商银行 yyq3663提供
+||961111.cn^
+! 东莞农商银行 yyq3663提供
+||drcbank.com^
+! 武汉农商银行 yyq3663提供
+||whrcbank.com^
+! 花旗银行 yyq3663提供
+||citibank.com.cn^
+! 汇丰银行 yyq3663提供
+||hsbc.com.cn^
+! 渣打银行 yyq3663提供
+||standardchartered.com.cn^
+! 恒生银行 yyq3663提供
+||hangseng.com^
+! 东亚银行 yyq3663提供
+||hkbea.com.cn^
+! 江苏农信 荒郊顽石 提供
+||js96008.com^
+! 无锡农村商业银行 由 renyouguo 提供 (yxl/Fire-IE#149)
+||ebank.wrcb.com.cn^
+! -----------------------------------------------
+! 政府网站
+! -----------------------------------------------
+! 湖南气象网
+||hnqx.gov.cn^
+! 国家工商行政管理总局 cisswa 提供
+||saic.gov.cn^
+! 重庆两江 mxyvsyr 提供
+||liangjiang.gov.cn^
+! 工信部电信用户申诉页面 凡戈 提供
+||www.chinatcc.gov.cn^*/cmsadmin/shouli/shensu.jsp^
+! 国家统计局 dream a dream 提供
+|http://www.stats.gov.cn/tjsj/pcsj/*pc/*/indexc*.htm^
+|http://www.stats.gov.cn/tjsj/ndsj/*/indexc*.htm^
+! 广州市人力资源和社会保障局 dream a dream提供
+||gzlss.gov.cn^
+! 江苏省律师管理系统 renyouguo 提供
+||www.jssf.gov.cn^*^lawyer^
+! -----------------------------------------------
+! 其他
+! -----------------------------------------------
+! 微软自动更新
+||update.microsoft.com^
+! zvod - cisswa提供
+||zoamo.lgnas.com/zvod^
+! 中国模特在线 显示不正常
+||xinsilu.com^
+! 万年历 DREAM A DREAMR提供
+||nongli.net^
+|http://site.baidu.com/list/wannianli.htm^
+|http://www.lzsq.net/wnl.htm^
+|http://www.k369.com/zy/zyindex13.htm^
+|http://www.time.ac.cn/calendar/calendar.htm^
+! 驱动精灵在线版 xcffl提供
+||up.mydrivers.com^
+! 驱动人生在线检测 xcffl提供
+|http://www.160.com/OnLine^
+! QQ风尚 cisswa提供
+||style.qq.com^
+! 中彩网 dream a dream提供
+|http://www.zhcw.com/ssq/jisuanqi^
+! 精华在线 cisswa提供
+|http://www.jinghua.com/lecture/listen_*.html
+! wangstage 提供
+||asiatvro.com^
+! 司考吧首页 Pp 提供
+|http://www.sikao8.com^
+@@|http://www.sikao8.com/bbs^
+! 中国政法大学选课系统 rpzrpz123 提供
+||urp.cupl.edu.cn^
+||video.cupl.edu.cn^
+! 詹胡波 提供
+||home.1smart.org^
+! 畅听网仅支持IE 天生&有用 提供
+||ting85.com^
+! 赶集网信息发布 京雀 提供
+|http://www.ganji.com/pub/pub.php^
+! 雨过天晴 zhouyuan 提供
+||njanyue.com^
+! 百姓网发布 缘来如此 提供
+|http://www.baixing.com/fabu^
+! 快乐de忘记 提供
+||sqtv.net^
+||pep.com.cn^
+! 稻草 提供
+||gxsdxy.cn^
+! 重庆日报农村版 ang0610 提供
+||cqrbncb.cqnews.net^
+! dream a dream 提供
+||xinjipin.com^
+||hlu.edu.cn^
+||jpskb.com^
+! 转贴工具 由于Firefox默认不允许访问剪贴板所致 蜗牛漫步 提供
+|http://www.123cha.com/zt^
+|http://tool.114la.com/site/zhuantie^
+|http://bbs.crsky.com/ztgj.htm^
+|http://www.zhenbi.com/hi/zhuantie.htm^
+|http://net.hnol.net/ubb.htm^
+! pennguo 提供
+||33md.cc^
+! Bing 提供
+||qire123.com^
+! 中国会计网 谋智火狐提供
+||member.chinaacc.com//selectcourse/confirmSelect.shtm^
+! xiaoyaoyingjie 提供
+||www.merida.cn/cn/prod/detail.asp^
+! 新浪围棋棋谱
+||duiyi.sina.com.cn/giboview/giboview.asp^
+! 证券从业人员资格考试网上报名(主动要求IE) 由 renyouguo 提供 (yxl/Fire-IE#148)
+||sac.ata.net.cn^
+! -----------------------------------------------
+! 台湾
+! -----------------------------------------------
+!中華電信 gopc提供
+||hinet.net^
+!中華郵政ATM elic2577提供
+||webatm.post.gov.tw^
+!臺灣銀行ATM elic2577提供
+||ebank.bot.com.tw^
+!臺灣土地銀行ATM elic2577提供
+||eatm.landbank.com.tw^
+!合作金庫商業銀行ATM elic2577提供
+||eatm.tcb-bank.com.tw^
+!第一商業銀行ATM elic2577提供
+||eatm.firstbank.com.tw^
+!華南商業銀行ATM elic2577提供
+||www.smartatm.com.tw^
+!彰化商業銀行ATM elic2577提供
+||eatm.chb.com.tw^
+!上海商業儲蓄銀行ATM elic2577提供
+||eatm.scsb.com.tw^
+!台北富邦商業銀行ATM elic2577提供
+||ebank.taipeifubon.com.tw^
+!國泰世華商業銀行ATM elic2577提供
+||www.mybank.com.tw^
+!中華開發工業銀行ATM elic2577提供
+||ebank.cdibank.com^
+!兆豐國際商業銀行ATM elic2577提供
+||netbank.megabank.com.tw^
+!全國農業金庫ATM elic2577提供
+||ebank.agribank.com.tw^
+!花旗（台灣）商業銀行ATM elic2577提供
+||webatm.citibank.com.tw^
+!高雄銀行ATM elic2577提供
+||ebank.bok.com.tw^
+!臺灣中小企業銀行ATM elic2577提供
+||nnb.tbb.com.tw^
+!台中商業銀行ATM elic2577提供
+||myatm.tcbbank.com.tw^
+!京城商業銀行ATM elic2577提供
+||eatm.ktb.com.tw^
+!大台北商業銀行ATM elic2577提供
+||ebank.bankoftaipei.com.tw^
+!臺灣新光商業銀行ATM elic2577提供
+||ibank.skbank.com.tw^
+!陽信商業銀行ATM elic2577提供
+||eatm.esunnybank.com.tw^
+!板信商業銀行ATM elic2577提供
+||webatm.bop.com.tw^
+!三信商業銀行ATM elic2577提供
+||ebank.cotabank.com.tw^
+!聯邦商業銀行ATM elic2577提供
+||atm.ubot.com.tw^
+!遠東國際商業銀行ATM elic2577提供
+||ebank.feib.com.tw^
+!元大商業銀行ATM elic2577提供
+||superatm.tw^
+!永豐商業銀行ATM elic2577提供
+||atm.mma.com.tw^
+!玉山商業銀行ATM elic2577提供
+||netbank.esunbank.com.tw^
+!萬泰商業銀行ATM elic2577提供
+||iccard.cosmosbank.com.tw^
+!台新國際商業銀行ATM elic2577提供
+||my.taishinbank.com.tw^
+!大眾商業銀行ATM elic2577提供
+||www.121atm.com.tw^
+!日盛國際商業銀行ATM elic2577提供
+||webatm.jihsunbank.com.tw^
+!安泰商業銀行ATM elic2577提供
+||webatm.entiebank.com.tw^
+!中國信託商業銀行ATM elic2577提供
+||family.chinatrust.com.tw^
